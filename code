@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="我的第一個網頁 - 可愛的設計和功能">
+  <meta name="keywords" content="網頁, HTML, CSS, 可愛">
+  <meta name="author" content="Your Name">
   <title>我的第一個網頁</title>
 
   <!-- Google 可愛字體 -->
@@ -10,9 +13,8 @@
   <!-- CSS 美化 -->
   <style>
     body {
-      font-family: 'Comic Neue', cursive;
-      
-      <!-- 背景漸層 -->
+      font-family: 'Comic Neue', cursive, sans-serif;
+      /* 背景漸層 */
       background: linear-gradient(to right, #d3b8de, #a60ce8);
       text-align: center;
       padding: 30px;
@@ -59,6 +61,12 @@
       margin-right: auto;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
+
+    @media (max-width: 768px) {
+      .block {
+        width: 90%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -72,11 +80,11 @@
 
   <h1>沒網路也能用這個網站</h1>
 
-  <img src="Benson.jpg" alt="這是宥余的心" width="400">
+  <img src="Benson.jpg" alt="宥余的心圖片" width="400">
 
   <br><br>
 
-  <button onclick="alert('WOW~ 你得了 MVP!')">點按給可愛宥余送愛心</button>
+  <button onclick="alert('WOW~ 你得了 MVP!')" aria-label="Send love to 宥余">點按給可愛宥余送愛心</button>
 
   <br><br><br>
 
