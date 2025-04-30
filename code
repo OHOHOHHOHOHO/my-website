@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>我的第一個網頁</title>
+
+  <!-- Google 可愛字體 -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+  <!-- CSS 美化 -->
+  <style>
+    body {
+      font-family: 'Comic Neue', cursive;
+      
+      <!-- 背景漸層 -->
+      background: linear-gradient(to right, #d3b8de, #a60ce8);
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      font-size: 20px;
+      color: #444;
+    }
+
+    img {
+      border: 5px solid #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    button:hover {
+      background-color: #ff85c1;
+    }
+
+    .block {
+      background: white;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 12px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>哈囉，你來到了我做的網頁！</h1>
+
+  <p>
+    歡迎來到我的伺服器，哈哈哈哈哈哈🤣<br>
+    你想在這裡做甚麼阿XD
+  </p>
+
+  <h1>沒網路也能用這個網站</h1>
+
+  <img src="Benson.jpg" alt="這是宥余的心" width="400">
+
+  <br><br>
+
+  <button onclick="alert('WOW~ 你得了 MVP!')">點按給可愛宥余送愛心</button>
+
+  <br><br><br>
+
+  <div class="block">這是第一個區塊</div>
+  <div class="block">這是第二個區塊</div>
+</body>
+</html>
